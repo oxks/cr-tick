@@ -1,0 +1,9 @@
+version: 1
+packages:
+  - path: "postgres/sqlc"
+    name: "priceLogger"
+    engine: "postgresql"
+    schema: "./postgres/query/"
+    queries: "./postgres/query/"
+    emit_json_tags: true
+
